@@ -9,12 +9,12 @@ const Hero = () => {
   return (
     <section className="w-full ">
       <img
-        src="../../public/images/Header.png"
+        src="/images/Header.png"
         className=" w-full h-[80px]"
         alt=""
       />
       <div className=" h-[894px] relative">
-        <div className='bg-[url("../../public/images/15740.png")] bg-no-repeat bg-center bg-cover relative h-[637px] -z-20 py-20'>
+        <div className='bg-[url("/images/15740.png")] bg-no-repeat bg-center bg-cover relative h-[637px] -z-20 py-20'>
           <div className=" w-full h-full absolute bg-black opacity-40 -z-10 inset-0"></div>
           <h1 className="OS-60 w-[1040] h-[82px] pt-100 text-white text-center">
             TRIPPRO - AN ECOMMERCE SOLUTION
