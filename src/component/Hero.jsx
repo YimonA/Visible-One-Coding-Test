@@ -14,9 +14,9 @@ const Hero = () => {
         alt=""
       />
       <div className=" h-[894px] relative">
-        <div className='bg-[url("../../public/images/15740.png")] bg-no-repeat bg-center bg-cover relative h-[637px] -z-20'>
+        <div className='bg-[url("../../public/images/15740.png")] bg-no-repeat bg-center bg-cover relative h-[637px] -z-20 py-20'>
           <div className=" w-full h-full absolute bg-black opacity-40 -z-10 inset-0"></div>
-          <h1 className="OS-60 w-[1040] h-[82px] text-white text-center">
+          <h1 className="OS-60 w-[1040] h-[82px] pt-100 text-white text-center">
             TRIPPRO - AN ECOMMERCE SOLUTION
           </h1>
           <p className=" w-[1280] h-[73px] text-white text-center">
@@ -64,8 +64,8 @@ const Hero = () => {
         </div>
         
         <div className=" ">
-        <img src={LaptopImg} className="flex justify-center w-[850px] h-[484px] z-20 absolute -bottom-[3%] left-[50%] -translate-x-[50%]" alt="" />
-        <img src={Devwp} className="flex justify-center w-[644px] h-[404px] z-30 absolute bottom-5 left-[50%] -translate-x-[50%]" alt="" /></div>
+        <img src={LaptopImg} className="flex justify-center w-[850px] h-[484px] z-20 absolute bottom-3 left-[50%] -translate-x-[50%]" alt="" />
+        <img src={Devwp} className="flex justify-center w-[644px] h-[404px] z-30 absolute bottom-16 left-[50%] -translate-x-[50%]" alt="" /></div>
       </div>
     </section>
   );

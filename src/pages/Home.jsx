@@ -4,6 +4,8 @@ import About from '../component/About'
 import OurChallenges from '../component/OurChallenges'
 import OldWebsite from '../component/OldWebsite'
 import Footer from '../component/Footer'
+import Test from '../component/Test'
+
 const Home = () => {
   return (
     <div className=' container-fluid'>
@@ -12,6 +14,7 @@ const Home = () => {
         <OurChallenges/>
         <OldWebsite/>
         <Footer/>
+        <Test/>
     </div>
   )
 }

@@ -43,6 +43,7 @@ body {
     font-family: var(--os-font);
     font-size: 36px;
   }
+  
 }
 
 @layer components {

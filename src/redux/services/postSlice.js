@@ -8,7 +8,7 @@ export const postSlice = createSlice({
   name: "postSlice",
   initialState,
   reducers: {
-    addUser: (state, { payload }) => {
+    addPost: (state, { payload }) => {
       state.posts = payload.posts;
     },
   },
