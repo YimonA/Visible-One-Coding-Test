@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Open+Sans:wght@300;400;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --base-color: #202124;
+  --font-color: #8ab4f8;
+  --sidebar-color: #161618;
+  --secondary-color: #e8eaed;
+  --fade-color: #d4d5d6;
+  --gray-color: #7e7f80;
+  --border-color: #3f4245;
+  --os-font: "Open Sans", sans-serif;
+  --ms-font: "Montserrat", serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--base-color);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  font-family: var(--base-font);
+}
+
+@media screen and (max-width: 1920px) {
+  .OS-60 {
+    font-family: var(--os-font);
+    font-size: 60px;
+  }
+  .OS-24 {
+    font-family: var(--os-font);
+    font-size: 24px;
+  }
+  .OS-36 {
+    font-family: var(--os-font);
+    font-size: 36px;
+  }
+}
+
+@layer components {
+  .hero-div {
+    @apply w-[250px] h-[58px] px-6 flex justify-between items-center;
+  }
+}
