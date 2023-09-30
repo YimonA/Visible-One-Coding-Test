@@ -38,7 +38,7 @@ const OldWebsite = () => {
         className="h-full flex items-stretch"
       >
         {showDesktop ? (
-          <div className="z-30 basis-3/10 flex bg-white h-full">
+          <div className="z-30 basis-4/12 flex bg-white h-full">
             <img
               src={Img1}
               className="w-[631px] h-[360px] -ml-[50%] 2xl:-ml-[25%]"
@@ -60,7 +60,7 @@ const OldWebsite = () => {
             </div>
           </div>
         ) : (
-          <div className="z-30 basis-3/10 flex bg-white h-full">
+          <div className="z-30 basis-4/12 flex bg-white h-full">
             <img
               src={Img1Mobile}
               className="w-[240px] h-[406px] -ml-[2%] mt-auto"
@@ -99,8 +99,8 @@ const OldWebsite = () => {
           </div>
         )}
         {/* old website */}
-        <div className="basis-7/10 pt-16 bg-gradient-to-r from-[#3AE7AB] to-[#2DC4EA]">
-          <div className="mx-auto w-[60%] 2xl:w-[50%]">
+        <div className="basis-8/12 pt-16 bg-gradient-to-r from-[#3AE7AB] to-[#2DC4EA]">
+          <div className="w-[60%] mx-auto">
             <h1 className="OS-36 font-bold text-white opacity-80 uppercase mb-10">
               Their Old Website & Problems
             </h1>
