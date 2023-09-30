@@ -21,7 +21,6 @@ body {
   font-family: var(--base-font);
 }
 
-@media screen and (min-width: 1920px) {
   .OS-60 {
     font-family: var(--os-font);
     font-size: 60px;
@@ -41,21 +40,7 @@ body {
   .clipPolygon {
     clip-path: polygon(10% 0, 90% 0, 100% 100%, 0 100%);
   }
-}
-@media screen and (max-width: 1366px) {
-  .OS-60 {
-    font-family: var(--os-font);
-    font-size: 60px;
-  }
-  .OS-24 {
-    font-family: var(--os-font);
-    font-size: 24px;
-  }
-  .OS-36 {
-    font-family: var(--os-font);
-    font-size: 36px;
-  }
-}
+
 
 @layer components {
   .hero-div {
