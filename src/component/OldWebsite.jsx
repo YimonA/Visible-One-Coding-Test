@@ -38,7 +38,7 @@ const OldWebsite = () => {
         className="h-full flex items-stretch gap-5"
       >
         {showDesktop ? (
-          <div className="basis-2/6 flex bg-white h-full">
+          <div className="basis-2/6 2xl:basis-1/2 flex bg-white h-full">
             <img src={Img1} className="w-[631px] h-[360px] -ml-[50%]" alt="" />
             <div className=" w-[600px] ">
               <div className=" w-[600px] h-[405px] border-[20px] border-[#58595B] rounded-t-[30px] bg-[#58595B] flex justify-center items-center">
@@ -56,7 +56,7 @@ const OldWebsite = () => {
             </div>
           </div>
         ) : (
-          <div className="basis-2/5 flex bg-white h-full -mr-[20%]">
+          <div className="basis-2/5 2xl:basis-1/2 flex bg-white h-full -mr-[20%]">
             <img
               src={Img1Mobile}
               className="w-[240px] h-[406px] -ml-[2%] mt-auto"
@@ -93,7 +93,7 @@ const OldWebsite = () => {
           </div>
         )}
         {/* old website */}
-        <div className="basis-2/5 px-20 pt-16 ms-auto">
+        <div className="basis-2/5 2xl:basis-1/2 pe-52 pt-16 ms-auto">
           <h1 className="OS-36 font-bold text-white opacity-80 uppercase mb-10">
             Their Old Website & Problems
           </h1>
