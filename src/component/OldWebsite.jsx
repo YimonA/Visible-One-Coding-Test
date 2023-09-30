@@ -35,11 +35,11 @@ const OldWebsite = () => {
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ delay: 0.1, duration: 0.9 }}
         viewport={{ once: false }}
-        className="h-full flex items-stretch justify-between"
+        className="h-full flex items-stretch gap-5"
       >
         {showDesktop ? (
           <div className="basis-2/6 flex bg-white h-full">
-            <img src={Img1} className="w-[631px] h-[360px] -ml-[35%]" alt="" />
+            <img src={Img1} className="w-[631px] h-[360px] -ml-[50%]" alt="" />
             <div className=" w-[600px] ">
               <div className=" w-[600px] h-[405px] border-[20px] border-[#58595B] rounded-t-[30px] bg-[#58595B] flex justify-center items-center">
                 <img
@@ -56,7 +56,7 @@ const OldWebsite = () => {
             </div>
           </div>
         ) : (
-          <div className="basis-2/5 flex bg-white h-full">
+          <div className="basis-2/5 flex bg-white h-full -mr-[20%]">
             <img
               src={Img1Mobile}
               className="w-[240px] h-[406px] -ml-[2%] mt-auto"
@@ -74,27 +74,26 @@ const OldWebsite = () => {
             />
             
 
-            <div className=" w-[265px] h-[546px] flex flex-col relative -mr-[40%] border-2 rounded-[50px] border-[#B8B9BA]  bg-[#F5F5F5]">
-              <div className=" w-full h-[60px] ">
+            <div className=" w-[265px] h-[546px] flex flex-col relative -mr-[10%] border-2 rounded-[50px] border-[#B8B9BA]  bg-[#F5F5F5]">
+              <div className=" w-[265px] h-[60px] ">
                 <p className="w-[6px] h-[6px] rounded-full bg-black mx-auto mt-3"></p>
                 <div className=" flex justify-center my-4"><span className="inline-block w-[8px] h-[8px] rounded-full bg-black "></span><span className="inline-block w-[45px] h-[3px] rounded-full bg-black ml-5 me-5"></span></div>
               </div>
-              <div className=" w-full h-[416px] ">
+              <div className=" w-[265px] h-[416px] ">
                 <img
                   src={Img4Mobile}
                   className=" w-[214px] h-[410px] absolute right-7  "
                   alt=""
                 />
               </div>
-              <div className=" w-full h-[70px]  flex justify-center">
+              <div className=" w-[265px] h-[70px]  flex justify-center">
                 <span className="w-[38px] h-[38px] rounded-full mt-3 border-2 border-black"></span>
               </div>
             </div>
           </div>
         )}
-
         {/* old website */}
-        <div className="basis-2/5 px-20 pt-16">
+        <div className="basis-2/5 px-20 pt-16 ms-auto">
           <h1 className="OS-36 font-bold text-white opacity-80 uppercase mb-10">
             Their Old Website & Problems
           </h1>
