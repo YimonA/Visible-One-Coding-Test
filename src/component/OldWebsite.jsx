@@ -38,7 +38,7 @@ const OldWebsite = () => {
         className="h-full flex items-stretch"
       >
         {showDesktop ? (
-          <div className="z-30 2xl:basis-3/10 flex bg-white h-full">
+          <div className="z-30 basis-3/10 flex bg-white h-full">
             <img
               src={Img1}
               className="w-[631px] h-[360px] -ml-[50%] 2xl:-ml-[25%]"
