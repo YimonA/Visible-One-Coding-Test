@@ -15,11 +15,12 @@
   box-sizing: border-box;
 }
 
-body {
-  font-size: 18px;
-  line-height: 24px;
-  font-family: var(--base-font);
-}
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 18px;
+    line-height: 24px;
+    font-family: var(--base-font);
+  }
 
   .OS-60 {
     font-family: var(--os-font);
@@ -40,7 +41,7 @@ body {
   .clipPolygon {
     clip-path: polygon(10% 0, 90% 0, 100% 100%, 0 100%);
   }
-
+}
 
 @layer components {
   .hero-div {
