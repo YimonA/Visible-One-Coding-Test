@@ -23,7 +23,7 @@ const Hero = () => {
           <p className=" text-white opacity-60 text-center">voluptua. At vero eos et accusam et justo duo dolores
             et ea rebum.</p>
           <div className=" flex justify-center mt-10">
-            <div className=" hero-div ">
+            <div className=" hero-div w-[250px] ">
               <div>
                 <p className=" OS-24 text-white opacity-70 font-bold">
                   Build for:
@@ -31,9 +31,9 @@ const Hero = () => {
               </div>
               <img src={ResponsiveSvg} className=" w-[62px] h-[58px]" alt="" />
             </div>
-            <div className=" hero-div border-x-4 border-x-white">
+            <div className=" hero-div w-[300px]  border-x-4 border-x-white">
               <div>
-                <p className=" OS-24 text-white opacity-50 font-normal">
+                <p className=" OS-24 text-white opacity-50 font-normal mb-2">
                   Technologies:
                 </p>
                 <p className=" OS-24 text-white opacity-70 font-bold">
@@ -42,9 +42,9 @@ const Hero = () => {
               </div>
               <img src={WordpressSvg} className=" w-[65px] h-[65px]" alt="" />
             </div>
-            <div className=" hero-div ">
+            <div className=" hero-div w-[250px] ">
               <div>
-                <p className=" OS-24 text-white opacity-50 font-normal">
+                <p className=" OS-24 text-white opacity-50 font-normal mb-2">
                   Industry:
                 </p>
                 <p className=" OS-24 text-white opacity-70 font-bold">

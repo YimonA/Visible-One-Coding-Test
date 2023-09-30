@@ -44,6 +44,6 @@ body {
 
 @layer components {
   .hero-div {
-    @apply w-[250px] h-[58px] px-6 flex justify-between items-center;
+    @apply h-[58px] px-6 flex justify-between items-center;
   }
 }
