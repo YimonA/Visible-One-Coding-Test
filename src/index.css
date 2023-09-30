@@ -5,13 +5,6 @@
 @tailwind utilities;
 
 :root {
-  --base-color: #202124;
-  --font-color: #8ab4f8;
-  --sidebar-color: #161618;
-  --secondary-color: #e8eaed;
-  --fade-color: #d4d5d6;
-  --gray-color: #7e7f80;
-  --border-color: #3f4245;
   --os-font: "Open Sans", sans-serif;
   --ms-font: "Montserrat", serif;
 }
@@ -23,14 +16,33 @@
 }
 
 body {
-  color: var(--base-color);
-  font-size: 16px;
-  font-weight: 400;
+  font-size: 18px;
   line-height: 24px;
   font-family: var(--base-font);
 }
 
-@media screen and (max-width: 1920px) {
+@media screen and (min-width: 1920px) {
+  .OS-60 {
+    font-family: var(--os-font);
+    font-size: 60px;
+  }
+  .OS-36 {
+    font-family: var(--os-font);
+    font-size: 36px;
+  }
+  .OS-24 {
+    font-family: var(--os-font);
+    font-size: 24px;
+  }
+  .OS-20 {
+    font-family: var(--os-font);
+    font-size: 20px;
+  }
+  .clipPolygon {
+    clip-path: polygon(10% 0, 90% 0, 100% 100%, 0 100%);
+  }
+}
+@media screen and (max-width: 1366px) {
   .OS-60 {
     font-family: var(--os-font);
     font-size: 60px;
@@ -43,7 +55,6 @@ body {
     font-family: var(--os-font);
     font-size: 36px;
   }
-  
 }
 
 @layer components {

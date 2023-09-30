@@ -1,10 +1,8 @@
-import React from 'react'
 import Hero from '../component/Hero'
 import About from '../component/About'
 import OurChallenges from '../component/OurChallenges'
 import OldWebsite from '../component/OldWebsite'
 import Footer from '../component/Footer'
-import Test from '../component/Test'
 
 const Home = () => {
   return (
@@ -14,7 +12,6 @@ const Home = () => {
         <OurChallenges/>
         <OldWebsite/>
         <Footer/>
-        <Test/>
     </div>
   )
 }
