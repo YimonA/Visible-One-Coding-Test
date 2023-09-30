@@ -38,12 +38,13 @@ const OldWebsite = () => {
         className="h-full flex items-stretch"
       >
         {showDesktop ? (
-          <div className="z-30 basis-4/12 flex bg-white h-full">
+          <div className="z-30 basis:1/3 2xl:basis-3/12 flex bg-white h-full -translate-x-[300px]">
             <img
               src={Img1}
-              className="w-[631px] h-[360px] -ml-[50%] 2xl:-ml-[25%]"
+              className="w-[631px] h-[360px]"
               alt=""
             />
+            {/* 2xl:-ml-[25%] */}
             <div className=" w-[600px] ">
               <div className=" w-[600px] h-[405px] border-[20px] border-[#58595B] rounded-t-[30px] bg-[#58595B] flex justify-center items-center">
                 <img
@@ -60,7 +61,7 @@ const OldWebsite = () => {
             </div>
           </div>
         ) : (
-          <div className="z-30 basis-4/12 flex bg-white h-full">
+          <div className="z-30 2xl:basis-3/12 flex bg-white h-full">
             <img
               src={Img1Mobile}
               className="w-[240px] h-[406px] -ml-[2%] mt-auto"
@@ -99,8 +100,9 @@ const OldWebsite = () => {
           </div>
         )}
         {/* old website */}
-        <div className="basis-8/12 pt-16 bg-gradient-to-r from-[#3AE7AB] to-[#2DC4EA]">
-          <div className="w-[60%] mx-auto">
+        <div className="basis:2/3 2xl:basis-9/12 flex justify-center bg-gradient-to-r from-[#3AE7AB] to-[#2DC4EA]">
+          <div className={` w-[400px] me-auto h-full ${showDesktop? 'bg-[#36DCBE]' :'bg-white'}`}></div>
+          <div className=" w-[1000px] px-32 pt-16 ">
             <h1 className="OS-36 font-bold text-white opacity-80 uppercase mb-10">
               Their Old Website & Problems
             </h1>
